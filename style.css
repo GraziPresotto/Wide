@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playwrite+GB+S:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Afacad Flux', sans-serif;
+}
+
+header{
+    font-size: 30px;
+    word-spacing: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+
+
+button{
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+img{
+    width: 570px;
+    margin-top: 80px;
+    margin-left: 85px;
+ 
+}
+
+.link-img{
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 60px;
+    text-shadow: 10px 10px 10px #3d4a41;
+    text-align: center;
+    line-height: 100px;
+    margin-top: -35px;
+
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+ 
+}
+
+.learn{
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    text-align: right;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.texto{
+    display: inline-block;
+    margin: 50px 60px 60px 80px;
+    position: absolute;
+    padding: 100px;
+    line-height: 80px;
+    
+}
+
+.caixa-video {
+     position: fixed;
+     opacity: 30%;
+     z-index: -1;
+     width: 100vw;
+    
+}
+  
+video{
+    width: 100vw;
+
+}
+
+
+
+   
+
+@media (max-width:450px){
+    .caixa-video{
+        display: none;
+    }
+
+   img{
+        width: 300px;
+        margin-left: 40px;
+        align-items: center;
+        margin-top: -35px;
+   }
+
+    header{
+        margin: 7px 3px 44px 3px;
+        font-size: 20px;
+        display: block;
+    }
+
+    
+
+   .link-img{
+        display: block;
+        margin-left: 27px;
+
+    }
+   
+     .texto{
+        margin: 10px 20px 30px 40px ;
+        padding: 0px;
+
+    }
+ 
+    h1{
+        font-size: 40px;
+        line-height: 30px;
+        margin-top: 50px;
+
+    }
+
+    p{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 40px;
+
+    }
+
+    
+   }
